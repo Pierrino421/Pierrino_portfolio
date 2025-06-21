@@ -8,7 +8,7 @@ interface ProjectProps {
 const CardC: React.FC<ProjectProps> = ({ title, linkimg }) => {
   return (
     <div className="bg-white rounded-lg p-5 shadow hover:shadow-lg transition flex flex-col items-center justify-center w-full max-w-[160px] aspect-square">
-  <div className="w-16 h-16 mb-3">
+  <div className="w-20 h-20 mb-3">
     <img
       src={linkimg}
       alt={title}
