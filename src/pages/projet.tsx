@@ -37,7 +37,7 @@ const projets = [
 
 const Projet: React.FC = () => {
   return (
-    <section id="project" className="bg-gray-100 py-8 px-6">
+    <section id="project" className="bg-gray-100 py-8 px-6 mt-5">
       <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Mes Projets
@@ -48,7 +48,7 @@ const Projet: React.FC = () => {
           </p>
         </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center">
         {projets.map((p, index) => (
           <Card
             key={index}
