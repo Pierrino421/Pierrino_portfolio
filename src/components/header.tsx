@@ -8,8 +8,16 @@ const Header: React.FC = () => {
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 shadow-xl">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <a href="#" className="flex items-center">
+            <div className="w-7 h-7 rounded-full bg-green-100 items-center justify-center mr-3">
+              <img
+                src="/assets/person-svgrepo-com.svg"
+                alt="pp"
+                className="w-6 h-6 hover:opacity-70 transition mr-1"
+              />
+            </div>
+
             <span className="self-center text-xl font-semibold whitespace-nowrap text-green-600">
-              Pierrino
+              Pierrino KAVEGE
             </span>
           </a>
 
@@ -50,14 +58,45 @@ const Header: React.FC = () => {
           {/* Menu navigation */}
           <div
             id="mobile-menu-2"
-            className={`${isOpen ? "block" : "hidden"} w-full lg:flex lg:w-auto lg:order-1 mr-[350px]  `}
+            className={`${
+              isOpen ? "block" : "hidden"
+            } w-full lg:flex lg:w-auto lg:order-1 mr-[350px]  `}
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-7 lg:mt-0">
-              <li><a href="#" className="block py-2 pr-4 pl-3 text-gray-700">Accueil</a></li>
-              <li><a href="#projet" className="block py-2 pr-4 pl-3 text-gray-700">Projets</a></li>
-              <li><a href="#competence" className="block py-2 pr-4 pl-3 text-gray-700">Compétences</a></li>
-              <li><a href="#about" className="block py-2 pr-4 pl-3 text-gray-700">À propos</a></li>
-              <li><a href="#contact" className="block py-2 pr-4 pl-3 text-gray-700">Contact</a></li>
+              <li>
+                <a href="#" className="block py-2 pr-4 pl-3 text-gray-700">
+                  Accueil
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#projet"
+                  className="block py-2 pr-4 pl-3 text-gray-700"
+                >
+                  Projets
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#competence"
+                  className="block py-2 pr-4 pl-3 text-gray-700"
+                >
+                  Compétences
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="block py-2 pr-4 pl-3 text-gray-700">
+                  À propos
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="block py-2 pr-4 pl-3 text-gray-700"
+                >
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         </div>
