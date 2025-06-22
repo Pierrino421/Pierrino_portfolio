@@ -60,7 +60,7 @@ const Header: React.FC = () => {
             id="mobile-menu-2"
             className={`${
               isOpen ? "block" : "hidden"
-            } w-full lg:flex lg:w-auto lg:order-1 mr-[350px]  `}
+            } w-full lg:flex lg:w-auto lg:order-1`}
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-7 lg:mt-0">
               <li>
