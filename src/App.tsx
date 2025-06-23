@@ -5,6 +5,7 @@ import Contact from "./pages/contact";
 import Footer from "./components/footer";
 import About from "./pages/about";
 import Competence from "./pages/competence";
+import { Analytics } from '@vercel/analytics/react';
 import "./styles/App.css";
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         </section>
       </main>
       <Footer/>
+      <Analytics />
     </>
   );
 }
