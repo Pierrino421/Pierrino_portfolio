@@ -38,8 +38,12 @@ const competences = [
     linkimg: "/assets/php.png",
   },
    {
-    title: "HTML & CSS",
-    linkimg: "/assets/html.jpg",
+    title: "HTML & CSS & Js",
+    linkimg: "/assets/html.jpeg",
+  },
+  {
+    title: "Figma",
+    linkimg: "/assets/figma.png",
   },
 ];
 

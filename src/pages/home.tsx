@@ -14,7 +14,7 @@ const Home: React.FC = () => {
 
         <p className="text-lg text-gray-600 mb-6">
           Je suis un étudiant en cycle ingénieur informatique animé par la
-          curiosité et la passion pour les données et le développement.J’aime créer des
+          curiosité et la passion pour les données et le développement. J’aime créer des
            des outils d’analyse de données efficaces et concevoir des applications web dynamiques.
         </p>
 
