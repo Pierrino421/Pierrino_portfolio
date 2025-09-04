@@ -5,6 +5,7 @@ import Contact from "./pages/contact";
 import Footer from "./components/footer";
 import About from "./pages/about";
 import Competence from "./pages/competence";
+import Experience from "./pages/experience";
 import { Analytics } from '@vercel/analytics/react';
 import "./styles/App.css";
 function App() {
@@ -14,6 +15,9 @@ function App() {
       <main className="p-0">
         <section id="home">
           <Home />
+        </section>
+        <section id="experience">
+          <Experience />
         </section>
          <section id="projet">
           <Projet />

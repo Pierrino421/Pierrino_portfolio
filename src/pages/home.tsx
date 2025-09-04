@@ -13,13 +13,13 @@ const Home: React.FC = () => {
         </h1>
 
         <p className="text-lg text-gray-600 mb-6">
-          Je suis un étudiant en cycle ingénieur informatique animé par la
-          curiosité et la passion pour les données et le développement. J’aime créer des
-           des outils d’analyse de données efficaces et concevoir des applications web dynamiques.
+          Je suis un étudiant en cycle ingénieur informatique, animé par la curiosité et la passion pour les données et le développement logiciel. 
+           J’aime concevoir des outils d’analyse de données performants ainsi que des applications web dynamiques.<b> Actuellement,
+           je suis à la recherche d’une alternance de 24 mois en data analyst et en développement logiciel pour la rentrée 2025-2026.</b>
         </p>
 
         <a
-          href="/assets/cv_alt_data_s.pdf"
+          href="/assets/cv-alternance-Pierrino.pdf"
           download
           className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition"
         >

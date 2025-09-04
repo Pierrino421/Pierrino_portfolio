@@ -69,6 +69,11 @@ const Header: React.FC = () => {
                 </a>
               </li>
               <li>
+                <a href="#experience" className="block py-2 pr-4 pl-3 text-gray-700">
+                  Expériences
+                </a>
+              </li>
+              <li>
                 <a
                   href="#projet"
                   className="block py-2 pr-4 pl-3 text-gray-700"

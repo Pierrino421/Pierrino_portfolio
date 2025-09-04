@@ -37,7 +37,7 @@ const projets = [
 
 const Projet: React.FC = () => {
   return (
-    <section id="project" className="bg-gray-100 py-8 px-6 mt-5">
+    <section id="project" className="bg-white py-8 px-6 mt-5">
       <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Mes Projets

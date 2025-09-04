@@ -4,7 +4,7 @@ const About: React.FC = () => {
   return (
     <section
       id="home"
-      className="min-h-165 flex flex-col md:flex-row items-center justify-center text-left bg-gray-100 px-3 gap-10 mt-5 mb-5 py-5"
+      className="min-h-165 flex flex-col md:flex-row items-center justify-center text-left bg-white px-3 gap-10 mt-5 mb-5 py-5"
     >
       {/* TEXTE À GAUCHE */}
       <div className="max-w-xl">
