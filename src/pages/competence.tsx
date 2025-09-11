@@ -45,6 +45,14 @@ const competences = [
     title: "Figma",
     linkimg: "/assets/figma.png",
   },
+    {
+    title: "NestJs",
+    linkimg: "/assets/nest.webp",
+  },
+    {
+    title: "Docker",
+    linkimg: "/assets/docker2.png",
+  },
 ];
 
 const Competence: React.FC = () => {
