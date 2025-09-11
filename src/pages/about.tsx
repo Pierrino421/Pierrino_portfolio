@@ -52,7 +52,7 @@ const About: React.FC = () => {
         </div>
 
         <a
-          href="/assets/cv_alt_data_s.pdf"
+          href="/assets/cv-alternance-Pierrino.pdf"
           download
           className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition"
         >
