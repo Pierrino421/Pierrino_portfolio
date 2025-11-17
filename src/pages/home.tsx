@@ -13,19 +13,25 @@ const Home: React.FC = () => {
         </h1>
 
         <p className="text-lg text-gray-600 mb-6">
-          Je suis un étudiant en cycle ingénieur informatique, animé par la curiosité et la passion pour les données et le développement logiciel. 
-           J’aime concevoir des outils d’analyse de données performants ainsi que des applications web dynamiques.<b> Actuellement,
-           je suis à la recherche d’une alternance de 24 mois en data analyst et en développement logiciel pour la rentrée 2025-2026.</b>
+          Je suis un étudiant en cycle ingénieur informatique, animé par la
+          curiosité et la passion pour les données et le développement logiciel.
+          J’aime concevoir des outils d’analyse performants ainsi que des
+          applications web modernes et intuitives.
+          <b>
+            Actuellement, je suis à la recherche d’un stage de 5 à 6 mois à
+            partir d’avril 2026, dans les domaines de la data ou du
+            développement logiciel.
+          </b>{" "}
         </p>
 
         <a
-          href="/assets/cv-alternance-Pierrino.pdf"
+          href="/assets/cv_stage_pierrino.pdf"
           download
           className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition"
         >
           Télécharger mon CV
         </a>
-         <a
+        <a
           href="#contact"
           className="inline-block bg-white text-green-600 border-2 border-green-600 px-6 py-3 rounded-lg font-medium hover:bg-green-100 transition mx-3"
         >
