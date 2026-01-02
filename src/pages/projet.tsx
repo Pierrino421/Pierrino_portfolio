@@ -46,6 +46,28 @@ const projets = [
     comp3: "Relations",
     typeP: "Analyse",
   },
+  {
+    title: "Chatbot IA 'Chat-404'",
+    description:
+      "Développement d'une application web de chat utilisant l'inférence de modèles NLP (GPT-2, BERT), et mise en place d'un moteur de filtrage de texte pour personnaliser les réponses générées par l'IA.",
+    linkgit: "https://static-chat-404.vercel.app/",
+    linkimg: "/assets/projet6.png",
+    comp1: "Python",
+    comp2: "Flask",
+    comp3: "HTML/CSS/JS",
+    typeP: "Dev",
+  },
+  {
+    title: "Détection de SPAM par Machine Learning",
+    description:
+      " Modèle de classification des messages SMS (SPAM / HAM) basé sur TF-IDF et Scikit-learn., avec un dataset de messages électroniques.",
+    linkgit: "https://github.com/Pierrino421/detectSpam",
+    linkimg: "/assets/projet7.jpg",
+    comp1: "Python",
+    comp2: "Scikit-learn",
+    comp3: "Pandas",
+    typeP: "Data Science",
+  },
 ];
 
 const Projet: React.FC = () => {

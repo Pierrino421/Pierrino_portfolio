@@ -18,25 +18,27 @@ const Home: React.FC = () => {
           J’aime concevoir des outils d’analyse performants ainsi que des
           applications web modernes et intuitives.
           <b>
-            Actuellement, je suis à la recherche d’un stage de 5 à 6 mois à
+            Actuellement, je suis à la recherche d’un stage de 4 à 5 mois à
             partir d’avril 2026, dans les domaines de la data ou du
             développement logiciel.
           </b>{" "}
         </p>
 
-        <a
-          href="/assets/cv_stage_pierrino.pdf"
-          download
-          className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition"
-        >
-          Télécharger mon CV
-        </a>
-        <a
-          href="#contact"
-          className="inline-block bg-white text-green-600 border-2 border-green-600 px-6 py-3 rounded-lg font-medium hover:bg-green-100 transition mx-3"
-        >
-          Contactez moi
-        </a>
+      <div className="mt-4 flex flex-wrap gap-3">
+          <a
+            href="/assets/cv_stage_pierrino.pdf"
+            download
+            className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition"
+          >
+            Télécharger mon CV
+          </a>
+          <a
+            href="#contact"
+            className="inline-block bg-white text-green-600 border-2 border-green-600 px-6 py-3 rounded-lg font-medium hover:bg-green-100 transition"
+          >
+            Contactez moi
+          </a>
+        </div>
       </div>
 
       {/* IMAGE À DROITE */}

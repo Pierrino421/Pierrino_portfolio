@@ -53,6 +53,10 @@ const competences = [
     title: "Docker",
     linkimg: "/assets/docker2.png",
   },
+    {
+    title: "Scikit-learn",
+    linkimg: "/assets/ScikitLearn.jpg",
+  },
 ];
 
 const Competence: React.FC = () => {
